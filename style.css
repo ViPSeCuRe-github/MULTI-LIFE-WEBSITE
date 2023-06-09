@@ -18,3 +18,16 @@ body {
     background-size: cover;
     background-repeat: repeat-y;
 }
+
+body::-webkit-scrollbar {
+    background-color: #645CBB;
+    scrollbar-color: #EBC7E6;
+    scroll-margin: 8px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb, .todo-tasks-container::-webkit-scrollbar-thumb {
+    background: #A084DC;
+    width: 100%;
+    border-radius: 10px;
+}
