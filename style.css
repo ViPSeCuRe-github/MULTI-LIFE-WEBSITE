@@ -141,3 +141,70 @@ body::-webkit-scrollbar-thumb, .todo-tasks-container::-webkit-scrollbar-thumb {
   z-index: 2;
 
 }
+.footer-bottom {
+
+  text-align: center;
+
+  font-size: 14px;
+
+  padding-top: 20px;
+
+  z-index: 0.5;
+
+}
+
+.footer-bottom p {
+
+  margin: 0;
+
+  z-index: 2;
+
+  cursor: default;
+
+  transition: all 0.5s;
+
+  user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+.footer-bottom {
+
+  text-align: center;
+
+  font-size: 14px;
+
+  padding-top: 20px;
+
+  z-index: 0.5;
+
+}
+
+.footer-bottom p {
+
+  margin: 0;
+
+  z-index: 2;
+
+  cursor: default;
+
+  transition: all 0.5s;
+
+  user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+.footer-bottom p:hover {
+
+  color: #fff;
+
+  filter: drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff);
+
+  user-select: none;
+
+    -webkit-tap-highlight-color: transparent;
+
+}
