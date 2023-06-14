@@ -208,3 +208,28 @@ body::-webkit-scrollbar-thumb, .todo-tasks-container::-webkit-scrollbar-thumb {
     -webkit-tap-highlight-color: transparent;
 
 }
+.footer-title {
+
+    font-size: 38px;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+  .footer-content {
+
+    flex-wrap: wrap;
+
+    margin-left: 20px;
+
+  }
+
+  .footer-column {
+
+    flex-basis: 50%;
+
+    margin-bottom: 20px;
+
+  }
