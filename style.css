@@ -31,3 +31,47 @@ body::-webkit-scrollbar-thumb, .todo-tasks-container::-webkit-scrollbar-thumb {
     width: 100%;
     border-radius: 10px;
 }
+}
+
+.footer-title {
+
+  text-align: center;
+
+  display: fixed;
+
+  font-size: 48px;
+
+  position: relative;
+
+  top: -30px;
+
+  margin: 20px;
+
+  z-index: 5;
+
+  filter: drop-shadow(0 0 0.25px #fff) drop-shadow(0 0 0.25px #fff) drop-shadow(0 0 3px #fff);
+
+  cursor: default;
+
+  user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+.footer-content {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  z-index: 2;
+
+  cursor: default;
+}
